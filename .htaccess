@@ -1,0 +1,5 @@
+Options -Indexes
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^adigheorghe.ro [NC]
+RewriteRule ^(.*)$ http://www.adigheorghe.ro/$1 [L,R=301]

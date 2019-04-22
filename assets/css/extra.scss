@@ -1,0 +1,38 @@
+body{
+
+}
+
+/*
+.blog-post .thumbnail{
+  margin-bottom: 1rem;
+  clear:both;
+  overflow:hidden;
+  display: flex;
+
+  &:last-child{
+    margin-bottom:0;
+  }
+}
+*/
+
+.blog{
+
+}
+.blog-post{
+
+}
+.blog-post .post-title{
+  background-color: #5da4d9;
+}
+
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 90%;
+  }
+}
+@media print {
+  body{
+   display: none;
+  }
+
+}
