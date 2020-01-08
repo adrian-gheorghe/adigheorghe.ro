@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Adrian Gheorghe</title>
+    <link>https://www.adigheorghe.ro/</link>
+    <description>Recent content on Adrian Gheorghe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.adigheorghe.ro/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to use Terraform and Ansible to raise a Jenkins Server on DigitalOcean</title>
+      <link>https://www.adigheorghe.ro/post/how-to-use-terraform-and-ansible-to-raise-a-jenkins-server-on-digitalocean/</link>
+      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.adigheorghe.ro/post/how-to-use-terraform-and-ansible-to-raise-a-jenkins-server-on-digitalocean/</guid>
+      <description>Published to Medium
+ HashiCorp Terraform enables you to safely and predictably create, change, and improve infrastructure. It is an open source tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.
+  In computing, Ansible is an open-source software provisioning, configuration management, and application-deployment tool. It runs on many Unix-like systems, and can configure both Unix-like systems as well as Microsoft Windows.</description>
+    </item>
+    
+    <item>
+      <title>How to host your static website on Github Pages</title>
+      <link>https://www.adigheorghe.ro/post/how-to-host-your-static-website-on-github-pages/</link>
+      <pubDate>Tue, 23 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.adigheorghe.ro/post/how-to-host-your-static-website-on-github-pages/</guid>
+      <description>Published on Medium Image Credits
+Lately I’ve noticed I’ve been paying quite a bit of money on hosting. Well not really a lot, but I thought I could do with optimising what servers I was using and how. So I thought I could start by moving some projects to free services. The first one that came to mind was my static website/ online cv. This I thought would make a great candidate for Github pages hosting.</description>
+    </item>
+    
+    <item>
+      <title>Docker Swarm volume data persistence on Digital Ocean with RexRay</title>
+      <link>https://www.adigheorghe.ro/post/docker-swarm-volume-data-persistence-on-digital-ocean-with-rexray/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.adigheorghe.ro/post/docker-swarm-volume-data-persistence-on-digital-ocean-with-rexray/</guid>
+      <description>Published to Medium
+This article is PART 2 of a series on Dockerizing your own personal infrastructure (Docker Swarm, RexRay, Traefik, Let’s Encrypt, DigitalOcean, Jenkins, Ansible)
+Part 1 - Part 3
+RexRay  REX-Ray enables stateful applications, such as databases, to persist and maintain its data after the life cycle of the container has ended. Built-in high availability enables orchestrators such as Docker Swarm, Kubernetes, and Mesos Frameworks like Marathon to automatically orchestrate storage tasks between hosts in a cluster.</description>
+    </item>
+    
+    <item>
+      <title>Docker Swarm CI deployment using Ansible and Jenkins</title>
+      <link>https://www.adigheorghe.ro/post/docker-swarm-ci-deployment-using-ansible-and-jenkins/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.adigheorghe.ro/post/docker-swarm-ci-deployment-using-ansible-and-jenkins/</guid>
+      <description>Docker Swarm CI deployment using Ansible and Jenkins Published on Medium
+This article is PART 3 of a series on Dockerizing your own personal infrastructure (Docker Swarm, RexRay, Traefik, Let’s Encrypt, DigitalOcean, Jenkins, Ansible)
+PART 1 and PART 2
+In order to set up a continuous integration workflow for Docker Swarm mode you can use an array of tools. For the purpose of this article and for my personal stack i have used Jenkins and Ansible.</description>
+    </item>
+    
+    <item>
+      <title>moni — easily monitor directory structure and content changes</title>
+      <link>https://www.adigheorghe.ro/post/moni-easily-monitor-directory-structure-and-content-changes/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.adigheorghe.ro/post/moni-easily-monitor-directory-structure-and-content-changes/</guid>
+      <description>Published on Medium
+moni — short for monitoring (thank you Captain Obvious) — is a small utility I have written in go. Its main purpose is to walk through a path and detect changes to the file structure, making it easier to spot when code has been compromised.
+Other use cases would be in workflows where you need to sync a file tree and only want to upload the diff (Although I am sure there are already tools that do that better).</description>
+    </item>
+    
+    <item>
+      <title>Wait.sh — wait for hosts to be accessible or a command to return true</title>
+      <link>https://www.adigheorghe.ro/post/wait-sh-wait-for-hosts-to-be-accessible-or-a-command-to-return-true/</link>
+      <pubDate>Mon, 24 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.adigheorghe.ro/post/wait-sh-wait-for-hosts-to-be-accessible-or-a-command-to-return-true/</guid>
+      <description>Published to Medium
+wait.sh is a bash script I wrote to help me set up my docker powered projects and allow me to have a functioning build process for database migrations.
+The code is deeply inspired by https://github.com/vishnubob/wait-for-it and https://github.com/eficode/wait-for.
+The script is able to wait for a host or multiple hosts to respond on a TCP port and can also wait for a command to output a value. For example you can wait for a file to exist or contain something.</description>
+    </item>
+    
+    <item>
+      <title>Dockerizing your personal infrastructure (Docker Swarm, RexRay, Traefik, Let’s Encrypt, DigitalOcean, Jenkins, Ansible)</title>
+      <link>https://www.adigheorghe.ro/post/dockerizing-your-own-personal-infrastructure-docker-swarm-rexray-traefik-lets-encrypt/</link>
+      <pubDate>Fri, 31 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.adigheorghe.ro/post/dockerizing-your-own-personal-infrastructure-docker-swarm-rexray-traefik-lets-encrypt/</guid>
+      <description>Published to Medium
+This article is PART 1 of a series on Dockerizing your own personal infrastructure
+PART 2 and PART 3
+In January 2018, i published this post on how to host your own personal websites or projects by your self, using Docker containers, an Nginx container as a reverse proxy and Let’s Encrypt for SSL certificates. I initially set this up somewhere around October 2017 and it has served me remarkably well even though it was a rudimentary set up.</description>
+    </item>
+    
+    <item>
+      <title>Adrian Gheorghe</title>
+      <link>https://www.adigheorghe.ro/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.adigheorghe.ro/resume/</guid>
+      <description>Experience CarePlanner Ltd Senior Backend Developer May 2019 - Present - Bristol, UK and Remote Care Planner is a rapidly growing SAAS provider in the social care sector based in Bristol, UK. I have been working on developing new features and porting existing ones into a a Symfony 4 API based SAAS. The application has a microservice architecture.
+Technologies used:
+ Symfony 4 Rest APIS GraphQL API using AWS AppSync Microservice architecture using AWS services: Lambda, DynamoDB, SQS, SNS, AppSync Kubernetes, Docker Behat   Halo Media Communications Ltd Developer October 2018 - May 2019 - Bristol, UK Responsible with developing a multitude of Drupal 8 / 7 websites, working on Development environments using Docker and Deployment Workflows.</description>
+    </item>
+    
+  </channel>
+</rss>
