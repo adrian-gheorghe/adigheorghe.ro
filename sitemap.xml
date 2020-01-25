@@ -53,8 +53,28 @@
   </url>
   
   <url>
+    <loc>https://www.adigheorghe.ro/post/using-docker-secrets-in-your-environment-variables/</loc>
+    <lastmod>2018-09-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.adigheorghe.ro/post/using-jenkins-pipelines-in-your-ci-cd-flow/</loc>
+    <lastmod>2018-09-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.adigheorghe.ro/post/dockerizing-your-own-personal-infrastructure-docker-swarm-rexray-traefik-lets-encrypt/</loc>
     <lastmod>2018-08-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.adigheorghe.ro/post/social-authentication-using-linkedin-for-drupal8/</loc>
+    <lastmod>2017-09-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.adigheorghe.ro/post/hello-world/</loc>
+    <lastmod>2017-09-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>

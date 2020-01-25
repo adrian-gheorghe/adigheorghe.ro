@@ -80,6 +80,29 @@ The script is able to wait for a host or multiple hosts to respond on a TCP port
     </item>
     
     <item>
+      <title>Using Docker Secrets in your Environment Variables</title>
+      <link>https://www.adigheorghe.ro/post/using-docker-secrets-in-your-environment-variables/</link>
+      <pubDate>Thu, 13 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.adigheorghe.ro/post/using-docker-secrets-in-your-environment-variables/</guid>
+      <description>If you want to use Docker containers in production, chances are you’ll want to store your credentials in a secure way. A way to do that for Docker Swarm is to use Docker secrets.
+A secret can be defined easily enough on your swarm manager using the following:
+echo &amp;#34;mysupersecurepassword&amp;#34; | docker secret create my_password_secret - Now, you will probably want to reference secrets from your environment variables, but that is unfortunately not supported yet.</description>
+    </item>
+    
+    <item>
+      <title>Using Jenkins Pipelines in your CI/CD flow</title>
+      <link>https://www.adigheorghe.ro/post/using-jenkins-pipelines-in-your-ci-cd-flow/</link>
+      <pubDate>Thu, 13 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.adigheorghe.ro/post/using-jenkins-pipelines-in-your-ci-cd-flow/</guid>
+      <description>Jenkins Pipelines are a very powerful tool that you can use to deploy your web applications. Pipelines allow you to leverage the full power of Jenkins but is simple enough to grasp quickly.
+All you need is a Jenkinsfile file in your project repository and then add a Pipeline or Multibranch Pipeline job to your Jenkins server and you’re good to go.
+What a pipeline allows you to do:
+ Keep your pipeline/build and deployment process in code Parameterize your builds Deploy using stages Require input or confirmation before proceeding to following stages The main syntax is Groovy, but you can include bash and other scripts as well After separating your build process in stages you can easily see where bottlenecks appear and optimize that specific area Deploy to multiple environments successively and successfully.</description>
+    </item>
+    
+    <item>
       <title>Dockerizing your personal infrastructure (Docker Swarm, RexRay, Traefik, Let’s Encrypt, DigitalOcean, Jenkins, Ansible)</title>
       <link>https://www.adigheorghe.ro/post/dockerizing-your-own-personal-infrastructure-docker-swarm-rexray-traefik-lets-encrypt/</link>
       <pubDate>Fri, 31 Aug 2018 00:00:00 +0000</pubDate>
@@ -89,6 +112,27 @@ The script is able to wait for a host or multiple hosts to respond on a TCP port
 This article is PART 1 of a series on Dockerizing your own personal infrastructure
 PART 2 and PART 3
 In January 2018, i published this post on how to host your own personal websites or projects by your self, using Docker containers, an Nginx container as a reverse proxy and Let’s Encrypt for SSL certificates. I initially set this up somewhere around October 2017 and it has served me remarkably well even though it was a rudimentary set up.</description>
+    </item>
+    
+    <item>
+      <title>Social authentication using LinkedIn for Drupal 8</title>
+      <link>https://www.adigheorghe.ro/post/social-authentication-using-linkedin-for-drupal8/</link>
+      <pubDate>Mon, 04 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.adigheorghe.ro/post/social-authentication-using-linkedin-for-drupal8/</guid>
+      <description>If you need to implement social authentication on a Drupal 8 website, https://www.drupal.org/project/social_auth_linkedin might help you out.
+The story behind this module is a simple one. I needed to implement LinkedIn authentication on a project i was working on. The website (developed using Drupal 8) is a Human Resources/CV aggregator solution, so it needed to allow users or potential candidates to login and import their profile/cv from various social networks. That being said, i used the Social API suite, Google and Facebook auth modules already existed, so i ended up writing the Social Auth LinkedIn module and a few event subscribers to save the user bio or cv data.</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://www.adigheorghe.ro/post/hello-world/</link>
+      <pubDate>Sun, 03 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.adigheorghe.ro/post/hello-world/</guid>
+      <description>I&#39;m starting out this blog with a typical Hello World post. Very original, I know.
+I&#39;ve been thinking of starting/doing this for a while now (a couple of years actually), but I&#39;ve never got around really doing it. Call it procrastination or whatever.
+General outline This blog will include my opinions and tutorials about all things tech I have come across, from technologies I have used, to code snippets and full fledged tutorials.</description>
     </item>
     
   </channel>

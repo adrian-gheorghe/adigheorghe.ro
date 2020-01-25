@@ -1,7 +1,6 @@
 <html>
 
 <head>
-	<meta name="generator" content="Hugo 0.62.1" />
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -28,27 +27,36 @@
 
 
 
-<title>Adrian Gheorghe</title>
-<meta name="description" content="``">
-<meta property="og:title" content="Adrian Gheorghe">
+<title>Using Jenkins Pipelines in your CI/CD flow | Adrian Gheorghe</title>
+<meta name="description" content="Jenkins Pipelines are a very powerful tool that you can use to deploy your web applications. Pipelines allow you to leverage the full power of Jenkins but is simple enough to grasp quickly.
+All you need is a Jenkinsfile file in your project repository and then add a Pipeline or Multibranch Pipeline job to your Jenkins server and you’re good to go.
+What a pipeline allows you to do:
+ Keep your pipeline/build and deployment process in code Parameterize your builds Deploy using stages Require input or confirmation before proceeding to following stages The main syntax is Groovy, but you can include bash and other scripts as well After separating your build process in stages you can easily see where bottlenecks appear and optimize that specific area Deploy to multiple environments successively and successfully.">
+<meta property="og:title" content="Using Jenkins Pipelines in your CI/CD flow | Adrian Gheorghe">
 <meta property="og:site_name" content="Adrian Gheorghe">
-<meta property="og:description" content="``">
-<meta property="og:url" content="https://www.adigheorghe.ro/">
+<meta property="og:description" content="Jenkins Pipelines are a very powerful tool that you can use to deploy your web applications. Pipelines allow you to leverage the full power of Jenkins but is simple enough to grasp quickly.
+All you need is a Jenkinsfile file in your project repository and then add a Pipeline or Multibranch Pipeline job to your Jenkins server and you’re good to go.
+What a pipeline allows you to do:
+ Keep your pipeline/build and deployment process in code Parameterize your builds Deploy using stages Require input or confirmation before proceeding to following stages The main syntax is Groovy, but you can include bash and other scripts as well After separating your build process in stages you can easily see where bottlenecks appear and optimize that specific area Deploy to multiple environments successively and successfully.">
+<meta property="og:url" content="https://www.adigheorghe.ro/post/using-jenkins-pipelines-in-your-ci-cd-flow/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content=''><meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Adrian Gheorghe">
+<meta property="og:image" content='https://www.adigheorghe.ro/img/nature-forest-trees-fog.jpeg'><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Using Jenkins Pipelines in your CI/CD flow | Adrian Gheorghe">
 
-	<link rel="canonical" href="https://www.adigheorghe.ro/">
+	<link rel="canonical" href="https://www.adigheorghe.ro/post/using-jenkins-pipelines-in-your-ci-cd-flow/">
 
 
 	<meta name="twitter:site" content="@https://twitter.com/adi_ghe">
 	<meta name="twitter:creator" content="@https://twitter.com/adi_ghe">
 
-	<meta name="twitter:description" content="``">
-<meta name="twitter:image" content="">
-<meta property="article:published_time" content="2019-05-20T00:00:00&#43;00:00">
-	<meta property="article:updated_time" content="2019-05-20T00:00:00&#43;00:00">
+	<meta name="twitter:description" content="Jenkins Pipelines are a very powerful tool that you can use to deploy your web applications. Pipelines allow you to leverage the full power of Jenkins but is simple enough to grasp quickly.
+All you need is a Jenkinsfile file in your project repository and then add a Pipeline or Multibranch Pipeline job to your Jenkins server and you’re good to go.
+What a pipeline allows you to do:
+ Keep your pipeline/build and deployment process in code Parameterize your builds Deploy using stages Require input or confirmation before proceeding to following stages The main syntax is Groovy, but you can include bash and other scripts as well After separating your build process in stages you can easily see where bottlenecks appear and optimize that specific area Deploy to multiple environments successively and successfully.">
+<meta name="twitter:image" content="https://www.adigheorghe.ro/img/nature-forest-trees-fog.jpeg">
+<meta property="article:published_time" content="2018-09-13T00:00:00&#43;00:00">
+	<meta property="article:updated_time" content="2018-09-13T00:00:00&#43;00:00">
 
 
 
@@ -171,267 +179,190 @@
 
         
 
-<Section class="section" relative id="Articles__Hero">
-    <div class="heading-container" style="maxWidth: 652px;">
-        <h1 class="hero-heading">Adrian Gheorghe. Software Developer. Technology Enthusiast. Human</h1>
-    </div>
-    <div class="subheading-container">
-            <div class="bio-container">
-        
-            
-                
-                    <a href="/authors/adrian-gheorghe/" class="bio-link">
-                        
-                            <div class="bio-avatar">
-                                <div class="bio-avatar-inner">
-                                    <img class="author-avatar" src="/profile-img.jpg" />
-                                </div>
-                            </div>
-                        
-                        
-                            <p class="bio-text">I specialize in developing web applications and have over 8 years experience working with the LAMP stack. My main language of choice is PHP although I also have experience with writing Python, GO, Javascript, Bash. I have a passion for automation and using the right tool for the right job.
+<section class="section narrow">
 
-Very keen on learning new technologies.
-</p>
-                        
-                    </a>
+    <section id="articleHero" class="section narrow">
+    <div class="article-hero">
+        <header class="article-header">
+            <h1 class="article-hero-heading">Using Jenkins Pipelines in your CI/CD flow</h1>
+            <div class="article-hero-subtitle">
+                <div class="article-meta">
+                    
+
+
+    
+            <a href="/authors/adrian-gheorghe/" class="article-author-link">
                 
-            
+                    <div class="article-author-avatar">
+                        <img src="/profile-img.jpg" />
+                    </div>
+                
+                
+                <strong>Adrian Gheorghe</strong>
+                
+                <span class="hide-on-mobile">,&nbsp;</span>
+            </a>
+    
+
+
+
+<script src="/js/collapseAuthors.js"></script>
+                    September 13, 2018
+                     • 8 min read
+                </div>
+            </div>
+        </header>
+        
+        <div class="article-hero-image" id="ArticleImage__Hero">
+            <img src="/img/nature-forest-trees-fog.jpeg">
+        </div>
         
     </div>
-        <div class="grid-controls-container">
-            <button id="btnGrid" class="grid-button">
-                <svg 
-width="26"
-height="26"
-viewBox="0 0 26 26"
-fill="none"
-xmlns="http://www.w3.org/2000/svg"
->
-<path id="tiles"
-  fill="#000"
-  d="M4.33337 13.8424H12.0371V5.4165H4.33337V13.8424ZM4.33337 20.5832H12.0371V15.5276H4.33337V20.5832ZM13.963 20.5832H21.6667V12.1572H13.963V20.5832ZM13.963 5.4165V10.4721H21.6667V5.4165H13.963Z"
-/>
-</svg>
-            </button>
-            <button id="btnRows" class="grid-button">
-                <svg 
-width="26"
-height="26"
-viewBox="0 0 26 26"
-fill="none"
-xmlns="http://www.w3.org/2000/svg"
->
-<path id="rows"
-  fill="#000"
-  d="M4.33331 15.1665H8.41174V10.8332H4.33331V15.1665ZM4.33331 20.5832H8.41174V16.2498H4.33331V20.5832ZM4.33331 9.74984H8.41174V5.4165H4.33331V9.74984ZM9.43135 15.1665H21.6666V10.8332H9.43135V15.1665ZM9.43135 20.5832H21.6666V16.2498H9.43135V20.5832ZM9.43135 5.4165V9.74984H21.6666V5.4165H9.43135Z"
-/>
-</svg>
-            </button>
+</section>
+
+    <aside id="progressBar" class="aside-container">
+    <div class="aside-align">
+      <div>
+        <div class="overlap-container">
+        </div>
+      </div>
+    </div>
+    
+    <div class="progress-container" tabIndex={-1}>
+        <div class="track-line" aria-hidden="true">
+            <div id="progressIndicator" class="progress-line"></div>
         </div>
     </div>
-</Section>
+</aside>
 
+    <article  id="articleContent" class="post-content">
+        <p>Jenkins Pipelines are a very powerful tool that you can use to deploy your web applications. Pipelines allow you to leverage the full power of <strong>Jenkins</strong> but is simple enough to grasp quickly.</p>
+<p>All you need is a Jenkinsfile file in your project repository and then add a <strong>Pipeline</strong> or <strong>Multibranch Pipeline</strong> job to your Jenkins server and you’re good to go.</p>
+<p><img src="/img/1__bYUMVsPZM8QAxVdqoyAgGQ.png" alt="alt image" title="Image"></p>
+<p>What a pipeline allows you to do:</p>
+<ul>
+<li>Keep your pipeline/build and deployment process in code</li>
+<li>Parameterize your builds</li>
+<li>Deploy using stages</li>
+<li>Require input or confirmation before proceeding to following stages</li>
+<li>The main syntax is Groovy, but you can include bash and other scripts as well</li>
+<li>After separating your build process in stages you can easily see where bottlenecks appear and optimize that specific area</li>
+<li>Deploy to multiple environments successively and successfully.</li>
+</ul>
+<p>A multibranch pipeline is basically a pipeline on steroids. You can filter the vcs branches which you can build from and change the build process accordingly for each branch. For example, for develop branches you could deploy to dev and qa and set only release branches to use the “Production Stage” of the pipeline.</p>
+<p><img src="/img/1__GtgYp8pQdN91H6UdWcHLfw.png" alt="alt image" title="Image"></p>
+<p>Pipeline Example</p>
+<p>The following pipeline will build a docker image with the tag value provided as a parameter, login to your docker registry (will need to have credentials stored in Jenkins) and push the image. The temporary image is then removed</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-groovy" data-lang="groovy">pipeline <span style="color:#f92672">{</span>
+  agent any
+  environment <span style="color:#f92672">{</span>
+    CONTAINER<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;adighe/test&#39;</span>
+  <span style="color:#f92672">}</span>
 
-<script src="/js/toggleLayout.js"></script>
+parameters <span style="color:#f92672">{</span>
+    string<span style="color:#f92672">(</span>
+        name: <span style="color:#e6db74">&#39;TAG&#39;</span><span style="color:#f92672">,</span>
+        description: <span style="color:#e6db74">&#39;Docker Image Tag&#39;</span>
+    <span style="color:#f92672">)</span>
+  <span style="color:#f92672">}</span>
+  stages <span style="color:#f92672">{</span>
+    stage<span style="color:#f92672">(</span><span style="color:#e6db74">&#39;Build&#39;</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+      steps <span style="color:#f92672">{</span>
+         withCredentials<span style="color:#f92672">(</span><span style="color:#f92672">[</span>
+   
+     usernamePassword<span style="color:#f92672">(</span>
+         credentialsId: <span style="color:#e6db74">&#39;docker-registry&#39;</span><span style="color:#f92672">,</span>
+             usernameVariable: <span style="color:#e6db74">&#39;DOCKER_USER&#39;</span><span style="color:#f92672">,</span>
+             passwordVariable: <span style="color:#e6db74">&#39;DOCKER_PASSWORD&#39;</span>
+         <span style="color:#f92672">)</span>
+     <span style="color:#f92672">]</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+     script <span style="color:#f92672">{</span>
+         docker<span style="color:#f92672">.</span><span style="color:#a6e22e">withRegistry</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;${DOCKER_REGISTRY}&#34;</span><span style="color:#f92672">,</span> <span style="color:#e6db74">&#39;docker-registry&#39;</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+               <span style="color:#66d9ef">def</span> img <span style="color:#f92672">=</span> docker<span style="color:#f92672">.</span><span style="color:#a6e22e">build</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;${CONTAINER}:${env.TAG}&#34;</span><span style="color:#f92672">)</span>
+               img<span style="color:#f92672">.</span><span style="color:#a6e22e">push</span><span style="color:#f92672">(</span><span style="color:#f92672">)</span>
+               sh <span style="color:#e6db74">&#34;docker rmi ${img.id}&#34;</span>
+            <span style="color:#f92672">}</span>
+         <span style="color:#f92672">}</span>
+       <span style="color:#f92672">}</span> 
+         
+      <span style="color:#f92672">}</span>
+    <span style="color:#f92672">}</span>
+  <span style="color:#f92672">}</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><p>Pretty straightforward. Give it a go and see how Jenkins Pipelines can help you out in you CI/CD process</p>
 
-<Section className="section narrow">
-  <section class="section nartrow">
-    <div id="articlesList" class="articles-list-container show-details">
-        
-        
-        
-        
-        
-            
-            
-                <div class="post-row">
-            
-            <a href="/post/using-docker-secrets-in-your-environment-variables/" class="article-link" 
-            
-              
-                id="article-link-bigger"
-                
-              
-            >
-              <div class="article-data-outer">
-                <div class="image-container">
-                  <img src="/img/nature-forest-trees-fog.jpeg" class="article-image" /> 
-                </div>
-                <div class="article-data">
-                  <h2 class="article-title">
-                    Using Docker Secrets in your Environment Variables
-                  </h2>
-                  <p class="article-excerpt">
-                    If you want to use Docker containers in production, chances are you’ll want to store your credentials in a secure way. A way to do that for Docker Swarm is to use Docker secrets.
-                  </p>
-                  <div class="article-metadata">
-                    September 13, 2018 • 3 min read
-                  </div>
-                </div>
-              </div>
-            </a>
-            
-            
-            
-        
-            
-            
-            <a href="/post/using-jenkins-pipelines-in-your-ci-cd-flow/" class="article-link" 
-            >
-              <div class="article-data-outer">
-                <div class="image-container">
-                  <img src="/img/nature-forest-trees-fog.jpeg" class="article-image" /> 
-                </div>
-                <div class="article-data">
-                  <h2 class="article-title">
-                    Using Jenkins Pipelines in your CI/CD flow
-                  </h2>
-                  <p class="article-excerpt">
-                    If you want to use Docker containers in production, chances are you’ll want to store your credentials in a secure way. A way to do that for Docker Swarm is to use Docker secrets.
-                  </p>
-                  <div class="article-metadata">
-                    September 13, 2018 • 8 min read
-                  </div>
-                </div>
-              </div>
-            </a>
-            
-            
-            
-                </div>
-                
-                
-                  
-                
-            
-        
-            
-            
-                <div class="post-row">
-            
-            <a href="/post/dockerizing-your-own-personal-infrastructure-docker-swarm-rexray-traefik-lets-encrypt/" class="article-link" 
-            
-              
-            >
-              <div class="article-data-outer">
-                <div class="image-container">
-                  <img src="/img/gray-and-black-hive-printed-textile-691710.jpg" class="article-image" /> 
-                </div>
-                <div class="article-data">
-                  <h2 class="article-title">
-                    Dockerizing your personal infrastructure (Docker Swarm, RexRay, Traefik, Let’s Encrypt, DigitalOcean, Jenkins, Ansible)
-                  </h2>
-                  <p class="article-excerpt">
-                    This article is PART 1 of a series on Dockerizing your own personal infrastructure
-                  </p>
-                  <div class="article-metadata">
-                    August 31, 2018 • 5 min read
-                  </div>
-                </div>
-              </div>
-            </a>
-            
-            
-            
-        
-            
-            
-            <a href="/post/social-authentication-using-linkedin-for-drupal8/" class="article-link" 
-            
-              
-                id="article-link-bigger"
-                
-              
-            >
-              <div class="article-data-outer">
-                <div class="image-container">
-                  <img src="/img/linkedin.jpg" class="article-image" /> 
-                </div>
-                <div class="article-data">
-                  <h2 class="article-title">
-                    Social authentication using LinkedIn for Drupal 8
-                  </h2>
-                  <p class="article-excerpt">
-                    you need to implement social authentication on a Drupal 8 website, https://www.drupal.org/project/social_auth_linkedin might help you out.
-                  </p>
-                  <div class="article-metadata">
-                    September 4, 2017
-                  </div>
-                </div>
-              </div>
-            </a>
-            
-            
-            
-                </div>
-                
-                
-                  
-                
-            
-        
-            
-            
-                <div class="post-row">
-            
-            <a href="/post/hello-world/" class="article-link" 
-            
-              
-                id="article-link-bigger"
-                
-              
-            >
-              <div class="article-data-outer">
-                <div class="image-container">
-                  <img src="/img/nature-forest-trees-fog.jpeg" class="article-image" /> 
-                </div>
-                <div class="article-data">
-                  <h2 class="article-title">
-                    Hello World
-                  </h2>
-                  <p class="article-excerpt">
-                    I&#39;m starting out this blog with a typical Hello World post. Very original, I know.
-                  </p>
-                  <div class="article-metadata">
-                    September 3, 2017 • 2 min read
-                  </div>
-                </div>
-              </div>
-            </a>
-            
-            
-            
-        
-    </div>
+    </article>
+
+    
     
 
-<nav aria-label="Page navigation">
-    <ul class="pagination">
-        
-        <li class="page-item"><a href="/" rel="prev" class="page-link page-prev">Prev</a></li>
-        
-        
-        
-        <li class="page-item"><a href="/" class="page-link">1</a></li>
-        
-        
-        
-        <li class="page-item active"><a href="/page/2/" class="page-link">2</a></li>
-        
-        
 
+
+
+
+    
+    
+    
         
-    </ul>
-</nav>
+    
+
+
+
+
+<section id="articleNext" class="section nartrow">
+    <h3 class="footer-next-heading">More articles from Adrian Gheorghe</h3>
+    <div class="footer-spacer"></div>
+    <div class="next-articles-grid" numberOfArticles={numberOfArticles}>
+        <div class="post-row">
+            
+                <a href="/post/dockerizing-your-own-personal-infrastructure-docker-swarm-rexray-traefik-lets-encrypt/" class="article-link"
+                 id="article-link-bigger">
+                    <div>
+                        <div class="image-container">
+                            <img src="/img/gray-and-black-hive-printed-textile-691710.jpg" class="article-image" /> 
+                        </div>
+                        <div>
+                            <h2 class="article-title">
+                                Dockerizing your personal infrastructure (Docker Swarm, RexRay, Traefik, Let’s Encrypt, DigitalOcean, Jenkins, Ansible)
+                            </h2>
+                            <p class="article-excerpt">
+                                This article is PART 1 of a series on Dockerizing your own personal infrastructure
+                            </p>
+                            <div class="article-metadata">
+                                August 8, 2018 · 5 min read
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            
+                <a href="/post/social-authentication-using-linkedin-for-drupal8/" class="article-link"
+                >
+                    <div>
+                        <div class="image-container">
+                            <img src="/img/linkedin.jpg" class="article-image" /> 
+                        </div>
+                        <div>
+                            <h2 class="article-title">
+                                Social authentication using LinkedIn for Drupal 8
+                            </h2>
+                            <p class="article-excerpt">
+                                you need to implement social authentication on a Drupal 8 website, https://www.drupal.org/project/social_auth_linkedin might help you out.
+                            </p>
+                            <div class="article-metadata">
+                                September 9, 2017
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            
+        </div>
+    </div>
+</section>
 
 </section>
-  <div class="articles-paginator">
-    
-  </div>
-</Section>
-<div class="articles-gradient"></div>
 
+
+ <script src="/js/progressBar.js"></script>
 
         
         <div class="footer-gradient"></div>
